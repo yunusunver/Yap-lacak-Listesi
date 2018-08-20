@@ -1,0 +1,79 @@
+body{
+  font-family: 'Stalinist One', cursive;
+}
+
+.tamamlanmis{
+    color:gray;
+    text-decoration: line-through;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    background-color: lightsteelblue;
+    height: 40px;
+    line-height: 40px;
+}
+
+h1{
+    background-color: lightgrey;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.fa-edit{
+    float: right;
+    
+}
+.fa-edit:hover{
+    color:cadetblue;
+
+}
+
+li:nth-child(2n){
+    background-color:lightgrey;
+}
+
+span{
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color:white;
+    width: 0;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+
+li:hover span{
+    opacity: 100;
+    width: 40px;
+}
+
+.container{
+    width: 350px;
+    margin: 100px auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+input{
+    font-size: 20px;
+    color:cadetblue;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+}
+
+input:focus{
+    border: 3px solid cadetblue;
+}
+
+input:hover{
+    border: 1 solid cadetblue;
+}
+
